@@ -938,24 +938,28 @@ textarea.m-field { min-height: 112px; resize: vertical; }
 <section id="faq" data-8b-section="faq" aria-labelledby="faq-title">
   <h2 class="m-text-3 faq__title" id="faq-title" data-8b-motion="rise">Frequently Asked Question<span class="m-dot" aria-hidden="true"></span></h2>
   <div class="faq__list">
-    <details class="faq__item"><summary class="m-text-7">How many doctors do we have ?<span class="faq__mark" aria-hidden="true"></span></summary><p class="m-text faq__answer">Mostly companies between fifty and five thousand people, plus a few public bodies. Size matters less than whether the people who decide are in the room.</p></details>
-    <details class="faq__item"><summary class="m-text-7">What is appointment fees?<span class="faq__mark" aria-hidden="true"></span></summary><p class="m-text faq__answer">With a two-week listening sprint: interviews, data and a day on your front line. You get a short written point of view and a plan before any big commitment.</p></details>
-    <details class="faq__item"><summary class="m-text-7">How many beds does the hospital has?<span class="faq__mark" aria-hidden="true"></span></summary><p class="m-text faq__answer">Almost always. We pair with your designers, engineers and marketers, and we hand over every system we build so you are never stuck with us. Most partners keep us around anyway.</p></details>
-    <details class="faq__item"><summary class="m-text-7">Who are our main funders and which organisation are we affiliated to?<span class="faq__mark" aria-hidden="true"></span></summary><p class="m-text faq__answer">Fixed fees for defined phases, then a monthly team for ongoing work. We are open about our rates on the first call.</p></details>
-    <details class="faq__item"><summary class="m-text-7">How many hospitals do we have ?<span class="faq__mark" aria-hidden="true"></span></summary><p class="m-text faq__answer">Lisbon and Brooklyn, with people working remotely across Europe and the US east coast. We travel for workshops and launches.</p></details>
+    <details class="faq__item"><summary class="m-text-7">How many doctors do we have ?<span class="faq__mark" aria-hidden="true"></span></summary><p class="m-text faq__answer">As of now, ANMIS Hospital has 15 doctors in our clinic, including specialists, general physicians, and resident doctors.</p></details>
+    <details class="faq__item"><summary class="m-text-7">What is appointment fees?<span class="faq__mark" aria-hidden="true"></span></summary><p class="m-text faq__answer">At ANMIS Hospital, our hypothetical consultation fees are:
+- General Physician: ₹500 per appointment
+- Specialist Doctor: ₹800 per appointment
+- Senior Specialist: ₹1,200 per appointment
+- Follow-up Consultation: ₹300 per appointment</p></details>
+    <details class="faq__item"><summary class="m-text-7">How many beds does the hospital has?<span class="faq__mark" aria-hidden="true"></span></summary><p class="m-text faq__answer">ANMIS Hospital has 250 beds in our hypothetical setup, including general wards, private rooms, ICU beds, and emergency care beds.</p></details>
+    <details class="faq__item"><summary class="m-text-7">Who are our main funders and which organisation are we affiliated to?<span class="faq__mark" aria-hidden="true"></span></summary><p class="m-text faq__answer">Taata Group: Our primary funder, providing the main financial backing for hospital infrastructure, medical equipment, healthcare services, and expansion.</p></details>
+    <details class="faq__item"><summary class="m-text-7">How many hospitals do we have ?<span class="faq__mark" aria-hidden="true"></span></summary><p class="m-text faq__answer">ANMIS Hospital operates 5 hospitals across our hypothetical healthcare network, with 250 beds at our main hospital.</p></details>
   </div>
 </section>
 
 <!-- contact: violet contact field: big "Let's talk", email, two offices with phones, and a form (placeholders) (animation: scene:contact) -->
 <section id="contact" data-8b-section="contact" aria-labelledby="contact-title">
-  <h2 class="m-text-3 contact__title" id="contact-title" style="--len:10"><span class="contact__voice">Let's talk</span><span class="m-dot" aria-hidden="true"></span></h2>
+  <h2 class="m-text-3 contact__title" id="contact-title" style="--len:10"><span class="contact__voice">Appointments</span><span class="m-dot" aria-hidden="true"></span></h2>
   <div class="contact__grid">
     <div class="contact__info">
-      <p class="m-text-5 contact__lead">Tell us what you are making. A real person reads every message and replies within two working days.</p>
-      <a data-8b-placeholder="email" class="contact__mail" href="mailto:hello@onda.example"><span>hello@onda.example</span></a>
+      <p class="m-text-5 contact__lead">Tell us when do you want appointment and what is your problem</p>
+      <a data-8b-placeholder="email" class="contact__mail" href="mailto:hello@onda.example"><span>anmolgarnet@gmail.com</span></a>
       <dl class="contact__places">
-        <div><dt class="m-text-7">Lisbon</dt><dd class="m-text">Rua do Exemplo 1<br>1200-000 Lisbon</dd><dd class="m-text"><a data-8b-placeholder="phone" href="tel:+351210000000">+351 210 000 000</a></dd></div>
-        <div><dt class="m-text-7">Brooklyn</dt><dd class="m-text">100 Example Street<br>Brooklyn, NY 11200</dd><dd class="m-text"><a data-8b-placeholder="phone" href="tel:+17180000000">+1 718 000 0000</a></dd></div>
+        <div><dt class="m-text-7">Mumbai</dt><dd class="m-text"> Near Altmount Road <br>  Bandra Kurla Complex </dd><dd class="m-text"><a data-8b-placeholder="phone" href="tel:+351210000000">+91 99999999999 </a></dd></div>
+        <div><dt class="m-text-7">Kolkata</dt><dd class="m-text">Near Howrah Bridge <br>Civil Lines</dd><dd class="m-text"><a data-8b-placeholder="phone" href="tel:+17180000000">+91 11111111111</a></dd></div>
       </dl>
     </div>
     <form data-8b-placeholder="form" class="contact__form m-surface" novalidate>
@@ -964,13 +968,13 @@ textarea.m-field { min-height: 112px; resize: vertical; }
         <label class="m-text-6">Email<input class="m-field" name="email" type="email" autocomplete="email" required></label>
       </div>
       <div class="contact__pair">
-        <label class="m-text-6">Company<input class="m-field" name="company" type="text" autocomplete="organization"></label>
-        <label class="m-text-6">What can we help with?<select class="m-field" name="topic"><option>A new brand</option><option>A product or app</option><option>A campaign</option><option>Something else</option></select></label>
+        <label class="m-text-6">What medical problem do you have?<input class="m-field" name="company" type="text" autocomplete="organization"></label>
+        <label class="m-text-6">What do you want to book?<select class="m-field" name="topic"><option>Diagnostic Lab</option><option>Surgical Centre</option><option>Therapy Cell</option><option>Preventive Lobby</option></select></label>
       </div>
-      <label class="m-text-6">A few words about the project<textarea class="m-field" name="message" rows="3" required></textarea></label>
+      <label class="m-text-6">Explain your symptoms in little detail<textarea class="m-field" name="message" rows="3" required></textarea></label>
       <div class="contact__actions">
-        <button class="m-btn" type="submit"><span class="m-btn__label">Send message</span></button>
-        <p class="m-text contact__status" role="status" aria-live="polite" data-success="Thank you. We will reply within two working days." data-error="Please add your name, a valid email and a few words about the project."></p>
+        <button class="m-btn" type="submit"><span class="m-btn__label">Book Appointment</span></button>
+        <p class="m-text contact__status" role="status" aria-live="polite" data-success="Thank you. We will reply within three working days." data-error="Please add your name, a valid email and a few words about the project."></p>
       </div>
     </form>
   </div>
@@ -983,23 +987,23 @@ textarea.m-field { min-height: 112px; resize: vertical; }
   <div class="footer__grid">
     <nav class="footer__col" aria-label="Footer">
       <p class="m-text-6 footer__label">Explore</p>
-      <a class="m-link-2" href="#work">Work</a>
-      <a class="m-link-2" href="#capabilities">Services</a>
-      <a class="m-link-2" href="#method">Approach</a>
-      <a class="m-link-2" href="#studio">Studio</a>
-      <a class="m-link-2" href="#journal">Journal</a>
+      <a class="m-link-2" href="#work">Services</a>
+      <a class="m-link-2" href="#capabilities">Doctors</a>
+      <a class="m-link-2" href="#method">Departments</a>
+      <a class="m-link-2" href="#studio">Successes</a>
+      <a class="m-link-2" href="#journal">Accreditions</a>
     </nav>
     <div class="footer__col">
       <p class="m-text-6 footer__label">Talk</p>
-      <a data-8b-placeholder="email" class="m-link-2" href="mailto:hello@onda.example">hello@onda.example</a>
-      <a data-8b-placeholder="email" class="m-link-2" href="mailto:careers@onda.example">careers@onda.example</a>
-      <a data-8b-placeholder="phone" class="m-link-2" href="tel:+351210000000">+351 210 000 000</a>
+      <a data-8b-placeholder="email" class="m-link-2" href="mailto:hello@onda.example">anmolgarnet@gmail.com</a>
+      <a data-8b-placeholder="email" class="m-link-2" href="mailto:careers@onda.example">anmolgarnet2@gmail.com</a>
+      <a data-8b-placeholder="phone" class="m-link-2" href="tel:+351210000000">+91 77777777777</a>
     </div>
     <div class="footer__col">
       <p class="m-text-6 footer__label">Follow</p>
       <a data-8b-placeholder="social" class="m-link-2" href="https://www.instagram.com/">Instagram</a>
       <a data-8b-placeholder="social" class="m-link-2" href="https://www.linkedin.com/">LinkedIn</a>
-      <a data-8b-placeholder="social" class="m-link-2" href="https://vimeo.com/">Vimeo</a>
+      <a data-8b-placeholder="social" class="m-link-2" href="https://vimeo.com/">Linkedino</a>
     </div>
     <form data-8b-placeholder="form" class="footer__news" novalidate>
       <label class="m-text-7" for="news-email">Onda in your inbox, once a month<span class="m-dot" aria-hidden="true"></span></label>
@@ -1010,7 +1014,7 @@ textarea.m-field { min-height: 112px; resize: vertical; }
       <p class="m-text-6 footer__note" role="status" aria-live="polite" data-idle="No spam, one email a month, unsubscribe in one click." data-success="You are in. See you next month." data-error="Please enter a valid email address.">No spam, one email a month, unsubscribe in one click.</p>
     </form>
   </div>
-  <div class="footer__legal m-text-6"><p>© 2026 Onda Studio · Design: <a href="https://8b.com/" style="color:inherit" data-8b-credit>8B</a></p><p>Made in Lisbon and Brooklyn</p></div>
+  <div class="footer__legal m-text-6"><p>@2026 Anmis Consultancy  <a href="https://8b.com/" style="color:inherit" data-8b-credit>96</a></p><p>Made in Jammu</p></div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
